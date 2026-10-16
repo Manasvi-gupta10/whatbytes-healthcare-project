@@ -1,8 +1,3 @@
-# PulseCare — Healthcare Management System
-
-An enterprise-grade, full-stack Healthcare Management System designed to streamline clinical operations by securely managing **patients**, **doctors**, **user authentication**, and **patient-doctor assignments**.
-
----
 
 ## 1. Project Title and Description
 
@@ -433,3 +428,4 @@ A complete, pre-configured collection is included in:
 4. **Tenant Isolation:** Every patient and assignment query enforces user ownership checks (`where: { userId: req.user.id }`).
 5. **Input Validation:** Input sanitization and format validation with `express-validator` across all endpoints.
 6. **Graceful Session Expiry:** Axios response interceptor redirects to `/login?expired=true` upon 401 Unauthorized responses.
+=======
